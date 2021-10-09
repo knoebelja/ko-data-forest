@@ -1,20 +1,6 @@
-import { search, help } from "./cmd"
+import { main } from "./main"
 
-const args = process.argv.slice(2)
+const cmd = process.argv[2]
+const options = process.argv.slice(3)
 
-const main = args[0]
-const options = args.slice(1)
-
-switch (main) {
-    case "search":
-        search(options)
-        break
-    case "help":
-        help()
-        break
-    default:
-        console.log("invalid command")
-        console.log("")
-        help()
-}
-
+main(cmd, options)
