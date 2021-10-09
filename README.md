@@ -4,7 +4,7 @@
 
 ## dev
 
-make sure you have `node` LTS installed. i recommend using `nvm` for installing and managing `node` versions.
+make sure you have `node` LTS installed. i recommend using [nvm](https://github.com/nvm-sh/nvm) for installing and managing different `node` environments.
 
 ### setup
 ```bash
