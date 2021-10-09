@@ -11,6 +11,7 @@ make sure you have `node` LTS installed. i recommend using `nvm` for installing 
 git clone git@github.com:knoebelja/ko-data-forest.git
 cd ko-data-forest
 npm install
+npm run build
 ```
 
 ### scripts

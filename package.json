@@ -2,9 +2,9 @@
   "name": "ko-data-forest",
   "version": "0.1.0",
   "description": "",
-  "main": "lib/index.ts",
+  "main": "src/index.ts",
   "scripts": {
-    "start": "node lib/index.js",
+    "start": "node dist/index.js",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
